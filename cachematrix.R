@@ -50,6 +50,6 @@ cacheSolve <- function(x, ...) {
     # Cache the inverse
     x$setinv(inv)
 
-    # Return it
+    # Return the value
     inv
 }
